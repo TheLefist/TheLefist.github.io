@@ -22,7 +22,7 @@
 
 .SideBar-Logo {
   /* border: 1px solid blue; */
-  height: 20px;
+  height: 30px;
   display: flex;
   align-items: center;
   font-size: 25px;
@@ -44,11 +44,10 @@
 
 .User-Nav {
   /* border: 1px solid red; */
-  height: 200px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  border-bottom: 1px solid black;
 }
 
 .User-Nav div {
@@ -260,5 +259,52 @@
 }
 
 .nav-favorites:hover .fa-heart {
+  color: lightgray;
+}
+.nav-favorites {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  padding-left: 20px;
+  transition: all .2s ease-in;
+  padding-bottom: 10px;
+}
+
+.nav-favorites .fa-heart {
+  margin-right: 10px;
+  color: gray;
+  transition: all .2s ease-in;
+}
+
+.nav-favorites:hover {
+  color: lightgray;
+}
+
+.nav-favorites:hover .fa-heart {
+  color: lightgray;
+}
+
+.nav-create-playlist{
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  padding-left: 20px;
+  transition: all .2s ease-in;
+  padding-bottom: 10px;
+}
+
+.nav-create-playlist .fa-heart {
+  margin-right: 10px;
+  color: gray;
+  transition: all .2s ease-in;
+}
+
+.nav-create-playlist:hover {
+  color: lightgray;
+}
+
+.nav-create-playlist:hover .fa-heart {
   color: lightgray;
 }
